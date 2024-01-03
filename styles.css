@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    height: 500px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: red;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+span{
+    color: #00bbff;
+}
